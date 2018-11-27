@@ -1,0 +1,36 @@
+[debug] [2018-11-27T14:25:53.807Z] ----------------------------------------------------------------------
+[debug] [2018-11-27T14:25:53.810Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting,function
+[debug] [2018-11-27T14:25:53.810Z] CLI Version:   5.0.1
+[debug] [2018-11-27T14:25:53.810Z] Platform:      linux
+[debug] [2018-11-27T14:25:53.810Z] Node Version:  v8.10.0
+[debug] [2018-11-27T14:25:53.810Z] Time:          Tue Nov 27 2018 21:25:53 GMT+0700 (+07)
+[debug] [2018-11-27T14:25:53.810Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-27T14:25:53.825Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-27T14:25:53.825Z] > authorizing via signed-in user
+[debug] [2018-11-27T14:25:53.825Z] [iam] checking project project-3-d224f for permissions ["firebase.projects.get"]
+[debug] [2018-11-27T14:25:53.828Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-27T14:25:53.828Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-27T14:25:54.138Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T14:25:54.172Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/project-3-d224f:testIamPermissions  
+
+[debug] [2018-11-27T14:25:55.639Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T14:25:55.640Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/project-3-d224f  
+ 
+[debug] [2018-11-27T14:25:56.971Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/huythong/duc_1010'...
+[info] 
+[debug] [2018-11-27T14:25:56.974Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/108009845311/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-27T14:25:57.735Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[info] [hosting] Rewriting /favicon.ico to live function app
+[info] [hosting] Rewriting /favicon.ico to live function app
+[info] [hosting] Rewriting /favicon.ico to live function app
+[info] [hosting] Rewriting /favicon.ico to live function app
+[info] [hosting] Rewriting /wp-admin/admin-ajax.php to live function app
+[info] [hosting] Rewriting /wp-admin/admin-ajax.php to live function app
+[info] [hosting] Rewriting /wp-admin/admin-ajax.php to live function app
